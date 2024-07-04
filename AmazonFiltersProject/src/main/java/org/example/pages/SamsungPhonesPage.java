@@ -33,17 +33,13 @@ public class SamsungPhonesPage extends BasePage {
         js.executeScript("arguments[0].scrollIntoView(true);", priceSliderLower);
         driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
 
-        Actions action = new Actions(driver);
-        action.clickAndHold(priceSliderLower)
-                .moveByOffset(40, 0)
-                .release()
-                .perform();
+        for (int i = 0; i < 5.5; i++) {
+            priceSliderLower.sendKeys(Keys.RIGHT);
+        }
 
-        Actions action2 = new Actions(driver);
-        action2.clickAndHold(priceSliderUpper)
-                .moveByOffset(-80, 0)
-                .release()
-                .perform();
+        for (int i = 0; i < 100; i++) {
+            priceSliderUpper.sendKeys(Keys.LEFT);
+        }
 
         WebElement submit = driver.findElement(By.xpath("//*[@id=\"a-autoid-1\"]/span/input"));
         submit.click();
