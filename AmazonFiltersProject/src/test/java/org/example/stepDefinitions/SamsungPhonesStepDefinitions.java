@@ -14,6 +14,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import java.util.List;
+
 public class SamsungPhonesStepDefinitions {
     private WebDriver driver;
     private HomePage homePage;
