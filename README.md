@@ -23,11 +23,10 @@ features: Holds feature files written in Gherkin syntax.
 
 Instructions:
 
-Clone the repository: git clone https://github.com/ElinaBkr/AmazonProject.git
-Navigate to the project directory: cd automated-testing-framework
-Install dependencies: mvn clean install
-Execute tests: mvn test
-Additional Notes:
+1. Clone the repository: git clone https://github.com/ElinaBkr/AmazonProject.git
+2. Navigate to the project directory: cd automated-testing-framework
+3. Install dependencies: mvn clean install
+4. Execute tests: mvn test
 
 Future Improvements:
 
