@@ -17,9 +17,9 @@ Key Features:
 
 Project Structure:
 
-src/main/java: Contains page objects and utilities.
-src/test/java: Includes step definitions and test runners for Cucumber scenarios.
-features: Holds feature files written in Gherkin syntax.
+- src/main/java: Contains page objects and utilities.
+- src/test/java: Includes step definitions and test runners for Cucumber scenarios.
+- features: Contains feature files written in Gherkin syntax.
 
 Instructions:
 
