@@ -31,7 +31,7 @@ Additional Notes:
 
 Future Improvements:
 
-Incorporating additional assertions to validate various aspects of the application's behaviuor and UI elements.
-Enhance error handling and reporting mechanisms.
-Implement parallel execution for faster test runs.
-Integrate with a continuous integration tool for automated builds and deployment
+- Incorporating additional assertions to validate various aspects of the application's behaviuor and UI elements.
+- Enhance error handling and reporting mechanisms.
+- Implement parallel execution for faster test runs.
+- Integrate with a continuous integration tool for automated builds and deployment
