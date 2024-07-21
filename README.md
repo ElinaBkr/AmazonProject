@@ -3,10 +3,11 @@ This project is a take-home exercise completed for a manual QA Engineer role. Th
 
 Technologies Used:
 
-Selenium WebDriver
-Java
-Cucumber for BDD
-Maven for dependency management
+- Selenium WebDriver
+- Java
+- Cucumber for BDD
+- Maven for dependency management
+  
 Key Features:
 
 - Implemented Page Object Model (POM) design pattern to enhance maintainability and readability.
